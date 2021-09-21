@@ -34,3 +34,22 @@
 .algernon {
     color: rgb(204, 0, 204);
 }
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+background-color:silver;
+}
+
+
+.name:hover{
+    text-shadow: 2px 3px 4px violet;
+}
